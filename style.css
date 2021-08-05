@@ -78,8 +78,17 @@ ul{
     left: 0;
     width: 100%;
     justify-content: space-between;
+    padding: 1rem 2rem;
+    background-color: rgba(32, 32, 32, 0.1);
+    border-top: 1px solid rgba(32, 32, 32, 0.1);
 }
 
 #footer ul li{
     display: inline;
+}
+
+#footer ul li a{
+    font-size: 1.5rem;
+    padding-left: 1.5rem;
+    color: rgba(34, 34, 34, 0.7);
 }
