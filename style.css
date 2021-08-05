@@ -2,6 +2,12 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+
+a{
+    text-decoration: none;
 }
 
 ul{
@@ -21,10 +27,35 @@ ul{
     left: 0;
     width: 100%;
     justify-content: space-between;
+    padding: 1.5rem 2rem;
 }
 
 #navbar ul li{
     display: inline;
+    font-size: 1.4rem;
+    padding-left: 1.5rem;
+}
+
+#navbar ul li a{
+    color: black;
+    font-size: 1.4rem;
+    vertical-align: middle;
+}
+
+#navbar ul li i{
+    font-size: 2.5rem;
+    vertical-align: middle;
+}
+
+#navbar .login-button{
+    border: 1px solid rgb(66, 133, 244);
+    background-color: white;
+    background: -webkit-linear-gradient(top, rgb(67, 135, 253),
+    rgb(70, 131, 234));
+    color: white;
+    font-weight: bolder;
+    padding: 0.7rem 1.3rem;
+    border-radius: 2px;
 }
 
 /*== Main ==*/
